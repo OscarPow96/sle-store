@@ -26,7 +26,7 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
 bash
 # 1. Clonar el repositorio
-git clone https://github.com/OscarPow96/sle-store
+git clone https://github.com/OscarPow96/sle-store.git
 
 # 2. Entrar al directorio
 cd sle-store
