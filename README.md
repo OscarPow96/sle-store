@@ -2,35 +2,67 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+# SLE ♣ STORE
 
-```bash
+Una tienda online construida con Next.js, TypeScript y Tailwind CSS
+
+## Caracteristicas
+
+- Catalogo de productos - navegación intuitiva
+- Carrito de compras - Gestión en tiempo real
+- Sistema de autenticación - Login y perfiles de usuario
+- Diseño responsive - Adaptable a todos los dispositivos
+
+## Tecnologías Utilizadas
+
+- Frontend - Next.js, REACT, TypeScript
+-Estilos - Tailwind CSS, CSS Modules
+-Estado - Zustand
+-HTTP Client - Axios
+
+## Instalación
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+bash
+# 1. Clonar el repositorio
+git clone https://github.com/OscarPow96/sle-store
+
+# 2. Entrar al directorio
+cd sle-store
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Ejecutar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 5. Abrir en el navegador
+
+http://localhost:3000
+
+
+## Estructura del proyecto
+
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+sle-store/
+├── app/                # Páginas de Next.js (App Router)
+│   ├── auth/           # Autenticación
+│   ├── cart/           # Carrito de compras
+│   ├── product/        # Páginas de productos
+│   └── layout.tsx      # Layout principal
+├── components/         # Componentes reutilizables
+├── lib/                # Utilidades y configuraciones
+├── store/              # Estado global (Zustand)
+└── public/             # Archivos estáticos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usuarios de prueba
 
-## Learn More
+Usuarios:   [ admin    ] [ usuario ] [ demo    ]
+Contraseña: [ admin123 ] [ user123 ] [ demo123 ]
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
